@@ -1,5 +1,5 @@
 <template>
-  <button class="btn-cta">{{ text }}</button>
+  <button class="btn-cta" style="{background-color: var(--pro-primary)}">{{ text }}</button>
 </template>
 
 <script setup lang="ts">

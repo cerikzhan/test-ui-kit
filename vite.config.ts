@@ -17,6 +17,7 @@ export default defineConfig({
     }
   },
   build: {
+    cssCodeSplit: false,
     lib: {
       // src/index.ts is where we have exported the component(s)
       entry: resolve(__dirname, "src/index.ts"),
